@@ -1,43 +1,70 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .navbar {
-    background: red;
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Raleway', sans-serif;
-    padding: 2em;
-    box-sizing: border-box;
+  background: red;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  padding: 2em;
+  box-sizing: border-box;
+  margin-bottom: 50px;
 }
 
 .logo {
-    width: 6rem;
-    height: auto;
+  width: 6rem;
+  height: auto;
 }
 
 .menu {
-    width: 300px;
+  width: 300px;
 }
 
 .menu ul {
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    font-size: .9em;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
 }
 
 .menu ul li {
-    display: inline;
+  display: inline;
 }
 
 .menu ul li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
+}
+
+.primera {
+  padding: 0 2em;
+  display: grid;
+  grid-template: "izquierda derecha" "izquierda derecha";
+}
+
+.izquierda {
+  grid-area: izquierda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.derecha {
+  grid-area: derecha;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.derecha img {
+  /* max-width: 60%; */
+  height: auto;
 }
