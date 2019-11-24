@@ -17,7 +17,7 @@ body {
 }
 
 .logo {
-  width: 6em;
+  width: 7em;
   height: auto;
 }
 
@@ -268,4 +268,99 @@ body {
 .tercera__form--button:hover {
   background-color: hsl(238, 22%, 44%);
   color: white;
+}
+
+.cuarta {
+  padding: 6em 3em;
+  background: hsl(243, 87%, 12%);
+}
+
+.cuarta__container {
+  /* padding: 0 3em; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "primerac segundac tercerac cuartac";
+  color: white;
+}
+
+.cuarta__logo {
+  margin-bottom: 1em;
+  width: 8em;
+  height: auto;
+  fill: white;
+}
+
+.primerac {
+  grid-area: "primerac";
+  display: flex;
+  flex-direction: column;
+}
+
+.primerac > a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding: 0 0 20px 0;
+  text-decoration: none;
+  color: white;
+  font-size: 0.96em;
+}
+
+.primerac__telefono > img {
+  margin-right: 10px;
+}
+
+.primerac__mail > img {
+  margin-right: 10px;
+}
+
+.segundac {
+  grid-area: "segundac";
+  display: flex;
+  flex-direction: column;
+}
+
+.segundac > a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding: 0 0 20px 0;
+  text-decoration: none;
+  color: white;
+  font-size: 0.96em;
+}
+
+.tercerac {
+  grid-area: "tercerac";
+  display: flex;
+  flex-direction: column;
+}
+
+.tercerac > a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  padding: 0 0 20px 0;
+  text-decoration: none;
+  color: white;
+  font-size: 0.96em;
+}
+
+.cuartac {
+  grid-area: "cuartac";
+  display: flex;
+}
+
+.cuartac > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.cuartac > a > img {
+  width: 20px;
+  height: 20px;
+  padding: 5px;
 }
