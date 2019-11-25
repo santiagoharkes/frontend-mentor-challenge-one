@@ -131,7 +131,7 @@
     .segunda__division {
             background: url("./images/bg-curve-desktop.svg") no-repeat;
             width: 100vw;
-            height: 53px;
+            height: 114px;
         }
     
     .segunda__contenido {
@@ -141,7 +141,6 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-top: -5px;
     }
     
     .segunda__contenido-textos {
