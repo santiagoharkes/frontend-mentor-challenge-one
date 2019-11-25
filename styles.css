@@ -127,6 +127,12 @@
     .segunda {
         /* width: 100vw; */
     }
+
+    .segunda__division {
+            background: url("./images/bg-curve-desktop.svg") no-repeat;
+            width: 100vw;
+            height: 53px;
+        }
     
     .segunda__contenido {
         padding: 0 3em 7em;
